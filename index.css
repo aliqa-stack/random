@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(48, 45, 45);
+}
+
+
+button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 50px;
+        }
+
+p {
+    text-align: center;
+    font-weight: bold; /* Perbaikan dari font: bold */
+    font-size: 2rem;
+    background:  linear-gradient(135deg, #6F00FF 35%, #FFBF00  50%, #E4D00A 0%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.parent{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   margin-top: 40px;
+}
+
+.center {
+    background-color: #FF4F00;
+    width: 385px;
+    aspect-ratio: 3/2;
+    display: inline-block;
+    position: relative;
+           top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.deco {
+    width: 380px;
+    aspect-ratio: 3/2;
+    display: inline-block;
+background: linear-gradient(135deg, #240b36 0%, #6b20a0  100%);
+     position: relative;
+           top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    border-radius: 10px;
+}

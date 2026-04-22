@@ -1,14 +1,21 @@
 const button = document.getElementById("button");
 const p = document.getElementById("p");
-let arr = ["halo", "iwan77", "iqbal", "siregar", "amartukam", "gacor", "zeus", "67", "slot"]
-
+const heading = document.getElementById("heading");
+let arr = ["halo", "iwan777", "iqbal", "siregar", "amartukam", "gacor", "zeus", "67", "slot", "win the prize"]
+ 
 
 
 let shaking = 0.0;
 
+
+
 button.onmousedown = () => {
     shaking = 0.25;
     p.innerText = arr[Math.floor(Math.random() * arr.length)]
+
+    
+    
+
 }
 
 let prevTimestamp = 0;
@@ -26,5 +33,6 @@ function frame (timestamp) {
     }
 
 }
+
 
 window.requestAnimationFrame(frame);
