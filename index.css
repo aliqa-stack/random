@@ -1,5 +1,8 @@
 body{
-    background-color: rgb(48, 45, 45);
+    background-color: #FFF1D3;
+    background: radial-gradient(circle at top left, #FFF1D3, #FFD1A4);
+    height: 100vh;
+    margin: 0;
 }
 
 
@@ -10,13 +13,18 @@ button {
             transform: translate(-50%, -50%);
             width: 100px;
             height: 50px;
+            border-radius: 1rem;
+            border: 9px;
+            border-style: inset;
+            border-color: #462C7D;
+            z-index: 10;
         }
 
 p {
     text-align: center;
     font-weight: bold; /* Perbaikan dari font: bold */
     font-size: 2rem;
-    background:  linear-gradient(135deg, #6F00FF 35%, #FFBF00  50%, #E4D00A 0%);
+    background:  linear-gradient(135deg, #4701a1 35%, #8d6a00  50%, #807408 0%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -31,8 +39,8 @@ p {
 }
 
 .center {
-    background-color: #FF4F00;
-    width: 385px;
+
+    width: 390px;
     aspect-ratio: 3/2;
     display: inline-block;
     position: relative;
@@ -46,7 +54,11 @@ p {
     width: 380px;
     aspect-ratio: 3/2;
     display: inline-block;
-background: linear-gradient(135deg, #240b36 0%, #6b20a0  100%);
+background: rgba(202, 89, 149, 0.2);
+backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
      position: relative;
            top: 50%;
             left: 50%;
